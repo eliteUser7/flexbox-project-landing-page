@@ -118,3 +118,19 @@ button{
 }
 
 /* PART4 */
+.part4{
+    padding: 40px 70px;
+}
+.bottom-box{
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 30px 50px;
+    display: flex;
+    gap: 30px;
+    justify-content:space-around;
+}
+.call{
+    color:white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
