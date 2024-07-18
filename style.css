@@ -30,9 +30,13 @@ body{
     font-size: 18px;
     color: #E5E7EB;
 }
+
+
+
 /* NOW PART1 */
 .part1{
 padding: 0 70px;
+padding-bottom: 70px;
 }
 
 img{
@@ -48,5 +52,48 @@ button{
     background-color: #3882F6;
     border-radius: 8px;
     padding: 3px 16px;
+    margin: 8px 0;
+    color: white;
+    font-weight: bold;
 }
 
+/* NOW PART 2 */
+.part2{
+    padding: 0 70px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 70px;
+
+}
+.info-text{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight:bold;
+    text-align: center;
+    padding: 24px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: solid #3882F6;
+    border-radius: 25px;
+}
+.lower{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+.part2 .text{
+    text-align: center;
+    padding-top: 8px;
+}
+
+.icon{
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* NOW PART 3 */
