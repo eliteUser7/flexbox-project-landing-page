@@ -4,11 +4,17 @@ body{
     margin:0;
     padding: 0;
 }
+/* *{
+    padding:0 70px;
+} */
 
-.header,.right-links{
+.header,.right-links,.part1{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color:#1F2937;
+    padding: 0 70px ;
+    padding-top: 8px;
+    padding-bottom: 40px;
 }
 .right-links{
     gap: 16px;
@@ -24,3 +30,23 @@ body{
     font-size: 18px;
     color: #E5E7EB;
 }
+/* NOW PART1 */
+.part1{
+padding: 0 70px;
+}
+
+img{
+    width: 400px;
+    height: 150px;
+}
+.hero-main{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight:bold;
+}
+button{
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 3px 16px;
+}
+
