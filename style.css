@@ -97,3 +97,24 @@ button{
 
 
 /* NOW PART 3 */
+
+.part3{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 400px;
+}
+.quote{
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
+.name{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: end;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* PART4 */
